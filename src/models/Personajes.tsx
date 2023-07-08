@@ -12,7 +12,7 @@ export interface Location {
     name: string;
     url:  string;
 }
-export interface ResultCharacters {
+export interface ResultCharacter {
     id:       number;
     name:     string;
     status:   string;
@@ -29,5 +29,5 @@ export interface ResultCharacters {
 
 export interface TipadoInformacion {
     info:    Info;
-    results: ResultCharacters[];
+    results: ResultCharacter[];
 }

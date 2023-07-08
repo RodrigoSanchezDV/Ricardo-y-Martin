@@ -2,7 +2,7 @@
 import { Resource,component$, useResource$ } from "@builder.io/qwik";
 import { Link } from "@builder.io/qwik-city";
 /* import type { ResultLocations } from "~/models/Locations"; */
-/* import type { ResultCharacters } from "~/models/Personajes"; */
+/* import type { ResultCharacter } from "~/models/Personajes"; */
 import { apiService } from "~/Api/ApiService";
 import { TypcnDeviceDesktop } from '~/icons/iconos';
 

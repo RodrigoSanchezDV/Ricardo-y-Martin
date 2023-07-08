@@ -1,7 +1,7 @@
 /* eslint-disable qwik/jsx-img */
 import { Resource,component$, useResource$ } from "@builder.io/qwik";
 /* import type { ResultLocations } from "~/models/Locations"; */
-/* import type { ResultCharacters } from "~/models/Personajes"; */
+/* import type { ResultCharacter } from "~/models/Personajes"; */
 import { apiService } from "~/Api/ApiService";
 import { Link } from "@builder.io/qwik-city";
 

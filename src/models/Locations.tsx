@@ -1,6 +1,6 @@
 export interface Welcome9 {
     info:    Info;
-    results: ResultLocations[];
+    results: ResultLocation[];
 }
 
 export interface Info {
@@ -10,7 +10,7 @@ export interface Info {
     prev:  null;
 }
 
-export interface ResultLocations {
+export interface ResultLocation {
     id:        number;
     name:      string;
     type:      string;

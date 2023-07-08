@@ -48,7 +48,7 @@ export const apiService = {
             if(response.ok == true) {
                 return response.json()
             }else{
-                return {results:[]}
+                return id? null : {results:[]}
             }
         } catch (error) {
             console.log(error);
@@ -61,7 +61,7 @@ export const apiService = {
             if(response.ok == true) {
                 return response.json()
             }else{
-                return {results:[]}
+                return id? null : {results:[]}
             }
         } catch (error) {
             console.log(error);
@@ -74,7 +74,7 @@ export const apiService = {
             if(response.ok == true) {
                 return response.json()
             }else{
-                return {results:[]}
+                return id? null : {results:[]}
             }
         } catch (error) {
             console.log(error);

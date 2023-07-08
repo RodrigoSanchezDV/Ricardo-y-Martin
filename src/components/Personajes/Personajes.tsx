@@ -1,12 +1,12 @@
 /* eslint-disable qwik/jsx-img */
 import { component$ } from "@builder.io/qwik";
-import type { ResultCharacters } from "~/models/Personajes";
+import type { ResultCharacter } from "~/models/Personajes";
 import { TypcnGroup } from '~/icons/iconos';
 
 import {Link} from "@builder.io/qwik-city";
 
 
-export default component$(({name, image, id }: Pick<ResultCharacters,"name" | "image" | "id">) => {
+export default component$(({name, image, id }: Pick<ResultCharacter,"name" | "image" | "id">) => {
     return( 
         <div class="bg-black text-center m-2 p-2 border border-green-800 relative">
             <Link rel="stylesheet" href={`/details/characters/${id}`}>

@@ -1,6 +1,6 @@
 export interface Welcome6 {
     info:    Info;
-    results: ResultEpisodes[];
+    results: ResultEpisode[];
 }
 
 export interface Info {
@@ -10,7 +10,7 @@ export interface Info {
     prev:  null;
 }
 
-export interface ResultEpisodes {
+export interface ResultEpisode {
     id:         number;
     name:       string;
     air_date:   string;

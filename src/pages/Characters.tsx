@@ -1,7 +1,7 @@
 import { Resource, component$, useResource$, useSignal, useContext } from "@builder.io/qwik";
 import Personaje from "../components/Personajes/Personajes";
 // import { ApiService } from "~/Api/Fetch-Data-Characters";
-import type { ResultCharacters } from "~/models/Personajes";
+import type { ResultCharacter } from "~/models/Personajes";
 import { apiService } from "~/Api/ApiService";
 import { SearchContextId } from "~/routes/layout";
 import { TypcnArrowLeftOutline, TypcnArrowRightOutline } from '../icons/iconos';
@@ -54,7 +54,7 @@ export default component$(()=>{
                             results.length != 0?
                                 <ul class="flex flex-wrap justify-center border border-green-500">
                                     {
-                                        results.map((personajes: ResultCharacters)=>{
+                                        results.map((personajes: ResultCharacter)=>{
                                             return (
                                                 <li key={personajes.id}>
                                                     <Personaje {...personajes}/>

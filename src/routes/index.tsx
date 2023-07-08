@@ -6,7 +6,7 @@ import {
     Resource,
     useContext
 } from '@builder.io/qwik';
-import type { ResultCharacters } from '~/models/Personajes';
+import type { ResultCharacter } from '~/models/Personajes';
 import type { ResultLocations } from '~/models/Locations';
 import type {ResultEpisodes} from '~/models/Episodes';
 import { apiService } from '~/Api/ApiService';
@@ -78,7 +78,7 @@ export default component$(() => {
                 <div class="flex justify-center p-9 bg-black w-full">
                     <div class="flex flex-wrap justify-evenly w-3/4 ">
                         <Link href="/locations">
-                            <div class="relative">
+                            <div class="relative mt-10">
                                 <div class="w-full flex justify-center">
                                     <h2 class="w-1/3 p-1 text-center font-medium text-green-400 absolute top-4 border rounded-md border-teal-600 shadow-xl shadow-teal-300 bg-teal-800 bg-opacity-60">Ubicaciones</h2>
                                 </div>
@@ -86,7 +86,7 @@ export default component$(() => {
                             </div>
                         </Link>
                         <Link href="/characters">
-                            <div class="relative">
+                            <div class="relative mt-10">
                                 <div class="w-full flex justify-center">
                                     <h2 class="w-1/3 p-1 text-center font-medium text-green-500 absolute top-4 border rounded-md border-teal-600 shadow-xl shadow-teal-300 bg-teal-800 bg-opacity-60">Personajes</h2>
                                 </div>
@@ -94,7 +94,7 @@ export default component$(() => {
                             </div>
                         </Link>
                         <Link href="/episodes">
-                            <div class="relative">
+                            <div class="relative mt-10">
                                 <div class="w-full flex justify-center">
                                     <h2 class="w-1/3 p-1 text-center font-medium text-green-500 absolute top-4 border rounded-md border-teal-600 shadow-xl shadow-teal-300 bg-teal-800 bg-opacity-60">Episodios</h2>
                                 </div>
@@ -126,7 +126,7 @@ export default component$(() => {
                                 <div class="flex overflow-x-auto" id="scroll">
                                     <ul class="flex justify-center">
                                         {results.map(
-                                            (personajes: ResultCharacters) => {
+                                            (personajes: ResultCharacter) => {
                                                 return (
                                                     <li key={personajes.id} class="h-50">
                                                         <Personaje
