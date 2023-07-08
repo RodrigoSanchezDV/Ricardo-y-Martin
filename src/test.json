@@ -1,0 +1,164 @@
+[{
+  "_id": "649a2fc481ebe7510bd4e4a8",
+  "code": "11340__ALCATEL-1-ULTRA",
+  "name": "Smartphone Celular Alcatel 1 Ultra 1GB RAM 32GB Volcano Black",
+  "price": "32007.78" ,
+  "listPrice": { "$numberDouble": "48971.91" },
+  "stock": { "$numberInt": "1" },
+  "stockHistory": [
+    {
+      "stock":  1,
+      "date": 1685142682508
+    }
+  ],
+  "exactStock": false,
+  "priceHistory": [ 
+    {
+      "price": { "$numberDouble": "32007.78" },
+      "listPrice": { "$numberDouble": "48971.91" },
+      "date": { "$date": { "$numberLong": "1685142682508" } }
+    }
+  ],
+  "originalDescKeys": ["descripcion", "item_annotation2"],
+  "images": [
+    {
+      "big": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/ALCATEL-1-ULTRA_800.jpg",
+      "medium": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/ALCATEL-1-ULTRA_600.jpg",
+      "small": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/Items/ALCATEL-1-ULTRA_400.jpg"
+    },
+    {
+      "big": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/23014_800.jpg",
+      "medium": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/23014_600.jpg",
+      "small": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/23014_400.jpg"
+    },
+    {
+      "big": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/23015_800.jpg",
+      "medium": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/23015_600.jpg",
+      "small": "https://www.maximus.com.ar/Temp/App_WebSite/App_PictureFiles/ItemImages/23015_400.jpg"
+    }
+  ],
+  "url": "https://www.maximus.com.ar/Producto/Smartphone-Celular-Alcatel-1-Ultra-1GB-RAM-32GB-Volcano-Black/ITEM=11340/maximus.aspx?PN=ALCATEL-1-ULTRA",
+  "isService": false,
+  "originalProduct": {
+    "item_id": { "$numberInt": "11340" },
+    "item_code4web": "ALCATEL-1-ULTRA",
+    "item_desc": "Smartphone Celular Alcatel 1 Ultra 1GB RAM 32GB Volcano Black",
+    "item_desc4link": "Smartphone-Celular-Alcatel-1-Ultra-1GB-RAM-32GB-Volcano-Black",
+    "prli_price": "32.007,78",
+    "prli_price_original": { "$numberDouble": "32007.78" },
+    "prli_price_12": "3.600,88",
+    "curr_symbol": "ARS",
+    "item_vendorCode": "",
+    "isEntregaInmediata": { "$numberInt": "0" },
+    "isOfertasBlack": { "$numberInt": "0" },
+    "isOtrasOfertas": { "$numberInt": "0" },
+    "strikeThroughPrice": "20.593,09",
+    "strikeThroughPrice_original": { "$numberDouble": "20593.0865" },
+    "item_outlet": false,
+    "quota_visa": [
+      {
+        "ccp_desc": "1",
+        "price_quota": "48.971,91",
+        "ccp_percentage": { "$numberInt": "53" },
+        "ccp_percentage_respecto_lista": { "$numberInt": "0" },
+        "price_final": "48.971,91",
+        "ccp_id": { "$numberInt": "194" }
+      },
+      {
+        "ccp_desc": "3 Cuotas",
+        "price_quota": "16.323,97",
+        "ccp_percentage": { "$numberInt": "53" },
+        "ccp_percentage_respecto_lista": { "$numberInt": "0" },
+        "price_final": "48.971,91",
+        "ccp_id": { "$numberInt": "210" }
+      },
+      {
+        "ccp_desc": "6 Cuotas",
+        "price_quota": "8.161,98",
+        "ccp_percentage": { "$numberInt": "53" },
+        "ccp_percentage_respecto_lista": { "$numberInt": "0" },
+        "price_final": "48.971,91",
+        "ccp_id": { "$numberInt": "211" }
+      },
+      {
+        "ccp_desc": "Ahora 12",
+        "price_quota": "4.080,99",
+        "ccp_percentage": { "$numberInt": "53" },
+        "ccp_percentage_respecto_lista": { "$numberInt": "0" },
+        "price_final": "48.971,91",
+        "ccp_id": { "$numberInt": "193" }
+      },
+      {
+        "ccp_desc": "Ahora 18",
+        "price_quota": "3.218,56",
+        "ccp_percentage": { "$numberInt": "81" },
+        "ccp_percentage_respecto_lista": { "$numberDouble": "18.3006" },
+        "price_final": "57.934,08",
+        "ccp_id": { "$numberInt": "192" }
+      },
+      {
+        "ccp_desc": "Ahora 24",
+        "price_quota": "2.880,70",
+        "ccp_percentage": { "$numberInt": "116" },
+        "ccp_percentage_respecto_lista": { "$numberDouble": "41.1764" },
+        "price_final": "69.136,81",
+        "ccp_id": { "$numberInt": "191" }
+      }
+    ],
+    "itst_LastAvailableInRelalculation": { "$numberInt": "2" },
+    "code4SEO": "ALCATEL-1-ULTRA",
+    "brand_desc": "ALCATEL",
+    "price_164": "32008.00",
+    "price_1": "32.007,78",
+    "price_1_google": { "$numberDouble": "32007.78" },
+    "price_1_original": { "$numberDouble": "32007.7815" },
+    "quota_mercadopago": [
+      {
+        "ccp_desc": "1",
+        "price_quota": "37.449,10",
+        "ccp_percentage": { "$numberInt": "17" },
+        "price_final": "37.449,10",
+        "ccp_id": { "$numberInt": "32" }
+      }
+    ],
+    "item_annotation2": "<section class=\"specsMain\" id=\"Specifications\"><div class=\"sectionContainer\"><div class=\"headerLineBlack\"></div><table class=\"specsTable\"><tr class=\"rowTable\"><td><table><thead><tr><th class=\"tableHeader\">General</th></tr><tr><th class=\"rowHeader\">Color</th><td class=\"content\">Volcano Black</td></tr><tr><th class=\"rowHeader\">Tipo</th><td class=\"content\">Smartphone</td></tr><tr><th class=\"rowHeader\">Sistema Operativo</th><td class=\"content\">Android 11 (Go edition)</td></tr><tr><th class=\"rowHeader\">Modelo CPU</th><td class=\"content\">5033MP</td></tr></thead></table></td></tr><tr class=\"rowTable\"><td><table><thead><tr><th class=\"tableHeader\">Almacenamiento</th></tr><tr><th class=\"rowHeader\">Capacidad</th><td class=\"content\">32 GB</td></tr><tr><th class=\"rowHeader\">RAM integrada</th><td class=\"content\">1 GB</td></tr></table><tr class=\"rowTable\"><td><table><thead><tr><th class=\"tableHeader\">Conectores</th></tr><tr><th class=\"rowHeader\">Bandeja SIM</th><td class=\"content\">Nano SIM Micro sd</td></tr><tr><th class=\"rowHeader\">Capacidad de la tarjeta SIM</th><td class=\"content\">4G x 1 sim</td></tr></thead></table></td></tr><tr class=\"rowTable\"><td><table><thead><tr><th class=\"tableHeader\">Dimensiones</th></tr><tr><th class=\"rowHeader\">Peso</th><td class=\"content\">134g</td></tr><tr><th class=\"rowHeader\">Ancho</th><td class=\"content\">65.7 mm</td></tr><tr><th class=\"rowHeader\">Altura</th><td class=\"content\">137.6 mm</td></tr><tr><th class=\"rowHeader\">Grosor</th><td class=\"content\">9.9 mm</td></tr></thead></table></td></tr><tr class=\"rowTable\"><td><table><thead><tr><th class=\"tableHeader\">Pantalla</th></tr><tr><th class=\"rowHeader\">Tamaño de la pantalla</th><td class=\"content\">5\"</td></tr><tr><th class=\"rowHeader\">Tipo de display</th><td class=\"content\">FWVGA+</td></tr><tr><th class=\"rowHeader\">Resolucion</th><td class=\"content\">480 x 960</td></tr></thead></table></td></tr><tr class=\"rowTable\"><td><table><thead><tr><th class=\"tableHeader\">Camara</th></tr><tr><th class=\"rowHeader\">Cámara trasera</th><td class=\"content\">5MP</td></tr><tr><th class=\"rowHeader\">Cámara frontal</th><td class=\"content\">2 MP</td></tr></thead></table></td></tr>",
+    "description": "<div><p>Color: Volcano Black</p><p>Tipo: Smartphone</p><p>Sistema Operativo: Android 11 (Go edition)</p><p>Modelo CPU: 5033MP</p><p>Capacidad: 32 GB</p><p>RAM integrada: 1 GB</p><p>Bandeja SIM: Nano SIM Micro sd</p><p>Capacidad de la tarjeta SIM: 4G x 1 sim</p><p>Peso: 134g</p><p>Ancho: 65.7 mm</p><p>Altura: 137.6 mm</p><p>Grosor: 9.9 mm</p><p>Tamaño de la pantalla: 5\"</p><p>Tipo de display: FWVGA+</p><p>Resolucion: 480 x 960</p><p>Cámara trasera: 5MP</p><p>Cámara frontal: 2 MP</p></div>",
+    "currency_symbol": "$",
+    "cat_WebSite_desc": "Telefonia",
+    "subcat_WebSite_desc": "Celulares",
+    "cat_id": { "$numberInt": "66" },
+    "subcat_id": { "$numberInt": "3886" },
+    "item_detail": "267",
+    "item_codeAlternative": "209",
+    "item_guarantee": { "$numberInt": "180" },
+    "item_weight": { "$numberInt": "2000" },
+    "item_wide": { "$numberDouble": "5.5" },
+    "item_large": { "$numberDouble": "8.5" },
+    "item_higth": { "$numberInt": "17" },
+    "item_ML_url4video": "",
+    "extraImages": [
+      { "itimg_id": { "$numberInt": "23014" } },
+      { "itimg_id": { "$numberInt": "23015" } }
+    ],
+    "cantLocal": { "$numberInt": "0" },
+    "brand": {
+      "brand_id": { "$numberInt": "373" },
+      "brand_desc": "ALCATEL",
+      "qty": { "$numberInt": "2" }
+    },
+    "category": {
+      "cat_id": { "$numberInt": "66" },
+      "cat_desc": "Telefonia",
+      "qty": { "$numberInt": "4" }
+    },
+    "subcategory": {
+      "subcat_id": { "$numberInt": "3886" },
+      "subcat_desc": "Celulares",
+      "qty": { "$numberInt": "4" }
+    }
+  },
+  "brand": "alcatel",
+  "category": "telefonia",
+  "store": "MAXIMUS",
+  "__v": { "$numberInt": "0" }
+}]
