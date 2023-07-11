@@ -14,7 +14,7 @@ export default component$((props: Props) => {
 
     return (
         <div class="h-40 relative bg-black">
-            <div> <img src="images-logos/HeaderBackground.png" alt="" class="h-full w-full overflow-hidden absolute"/> </div>
+            <div> <img src="/images-logos/HeaderBackground.png" alt="" class="h-full w-full overflow-hidden absolute"/> </div>
             <div class="h-full">
                 <div class="relative z-10">
                     <img
