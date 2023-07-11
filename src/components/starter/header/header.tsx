@@ -18,13 +18,12 @@ export default component$((props: Props) => {
             <div class="h-full">
                 <div class="relative z-10">
                     <img
-                        src="../../../public/images-logos/rym.png"
+                        src="/images-logos/rym.png"
                         alt="rick"
                         width="250"
                         class="mx-auto my-auto"
                     />
                 </div>
-                {/* <div class=""><img src="../../../public/images-logos/pepino.png" alt="rick" width="100" class="absolute bottom-0 right-0 "/></div> */}
                 <div class="flex items-center justify-center">
                     <div class="w-1/2 relative">
                         <input

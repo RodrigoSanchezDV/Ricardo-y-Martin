@@ -7,8 +7,8 @@ import {
     useContext
 } from '@builder.io/qwik';
 import type { ResultCharacter } from '~/models/Personajes';
-import type { ResultLocations } from '~/models/Locations';
-import type {ResultEpisodes} from '~/models/Episodes';
+import type { ResultLocation } from '~/models/Locations';
+import type {ResultEpisode} from '~/models/Episodes';
 import { apiService } from '~/Api/ApiService';
 import Personaje from '../components/Personajes/Personajes';
 import Locations from '~/components/Locations/Locations';
@@ -90,7 +90,7 @@ export default component$(() => {
                                 <div class="w-full flex justify-center">
                                     <h2 class="w-1/3 p-1 text-center font-medium text-green-500 absolute top-4 border rounded-md border-teal-600 shadow-xl shadow-teal-300 bg-teal-800 bg-opacity-60">Personajes</h2>
                                 </div>
-                                <img class="custom-shadow main-image border-2 rounded-full border-purple-800 shadow-xl shadow-green-500 hover:border-green-500 hover:shadow-purple-800 hover:border-2 transition duration-500 hover:scale-105" src="../../public/images-logos/main-character-img.jpg" alt="" />
+                                <img class="custom-shadow main-image border-2 rounded-full border-purple-800 shadow-xl shadow-green-500 hover:border-green-500 hover:shadow-purple-800 hover:border-2 transition duration-500 hover:scale-105" src="/images-logos/main-character-img.jpg" alt="" />
                             </div>
                         </Link>
                         <Link href="/episodes">
@@ -201,7 +201,7 @@ export default component$(() => {
                                 <div class="flex overflow-x-auto" id="scroll">
                                     <ul class="flex justify-center">
                                         {results.map(
-                                            (location: ResultLocations) => {
+                                            (location: ResultLocation) => {
                                                 return (
                                                     <li key={location.id} class="h-50">
                                                         <Locations
@@ -273,7 +273,7 @@ export default component$(() => {
                                 <div class="flex overflow-x-auto" id="scroll">
                                     <ul class="flex justify-center">
                                         {results.map(
-                                            (episode: ResultEpisodes) => {
+                                            (episode: ResultEpisode) => {
                                                 return (
                                                     <li key={episode.id} class="h-50">
                                                         <Episodes

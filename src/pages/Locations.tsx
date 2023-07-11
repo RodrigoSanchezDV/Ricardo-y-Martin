@@ -7,7 +7,7 @@ import {
 } from '@builder.io/qwik';
 import Locations from '../components/Locations/Locations';
 import { apiService } from '~/Api/ApiService';
-import type { ResultLocations } from '~/models/Locations';
+import type { ResultLocation } from '~/models/Locations';
 import { SearchContextId } from '~/routes/layout';
 import { TypcnArrowLeftOutline, TypcnArrowRightOutline } from '../icons/iconos';
 
@@ -56,7 +56,7 @@ export default component$(() => {
                         {
                             results.length != 0?
                                 <ul class="flex flex-wrap justify-center border border-green-500">
-                                    {results.map((ubicaciones: ResultLocations) => {
+                                    {results.map((ubicaciones: ResultLocation) => {
                                         return (
                                             <li key={ubicaciones.id}>
                                                 <Locations {...ubicaciones} />

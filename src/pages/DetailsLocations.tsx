@@ -8,7 +8,6 @@ interface Props {
 }
 
 export default component$(({resultLocation}: Props) => {
-    console.log(resultLocation)
     return (
         <div class="mt-10">
         <div>

@@ -18,7 +18,6 @@ function buildUrl({
         if (page && page > 1) url += `page=${page}&`
         if (search) url += `name=${search}`;
     }
-    console.log(url)
     return url;
 }
 interface Params {

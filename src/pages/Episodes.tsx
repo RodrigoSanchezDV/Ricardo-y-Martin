@@ -7,7 +7,7 @@ import {
 } from '@builder.io/qwik';
 import Episodes from '../components/Episodes/Episodes';
 import { apiService } from '~/Api/ApiService';
-import type { ResultEpisodes } from '~/models/Episodes';
+import type { ResultEpisode } from '~/models/Episodes';
 import { SearchContextId } from '~/routes/layout';
 import { TypcnArrowLeftOutline, TypcnArrowRightOutline } from '../icons/iconos';
 
@@ -57,7 +57,7 @@ export default component$(() => {
                         {
                             results.length != 0?
                                 <ul class="flex flex-wrap justify-center border border-green-500">
-                                    {results.map((ubicaciones: ResultEpisodes) => {
+                                    {results.map((ubicaciones: ResultEpisode) => {
                                         return (
                                             <li key={ubicaciones.id}>
                                                 <Episodes {...ubicaciones} />
