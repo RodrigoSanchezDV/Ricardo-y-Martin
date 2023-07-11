@@ -14,7 +14,7 @@ export default component$((props: Props) => {
 
     return (
         <div class="h-40 relative bg-black">
-            <div id="particles-js" class="h-full w-full overflow-hidden absolute"></div>
+            <div> <img src="images-logos/HeaderBackground.png" alt="" class="h-full w-full overflow-hidden absolute"/> </div>
             <div class="h-full">
                 <div class="relative z-10">
                     <img
@@ -25,7 +25,7 @@ export default component$((props: Props) => {
                     />
                 </div>
                 <div class="flex items-center justify-center">
-                    <div class="w-1/2 relative">
+                    <div class="w-1/2 relative group">
                         <input
                             type="text"
                             class=" px-4 w-full h-10 focus:outline-none transition-all duration-500 bg-transparent text-green-500 hover:bg-green-500 hover:placeholder-black hover:text-black font-semibold place-content-start placeholder-green-500 placeholder-10px border border-green-500"
@@ -35,7 +35,7 @@ export default component$((props: Props) => {
                         />
                         <button
                             onClick$={props.customClean$}
-                            class="text-green-500 absolute right-5 top-3 font-bold"
+                            class="text-green-500 absolute right-5 top-3 font-bold group-hover:text-black transition-all duration-500"
                         >
                             <TypcnBackspaceOutline/>
                         </button>

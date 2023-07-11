@@ -75,7 +75,7 @@ export default component$(() => {
             <div>
                 {searchQuery.value != '' ? <h1>"{searchQuery}"</h1> : <h1></h1>}
                 {searchQuery.value == ""? 
-                <div class="flex justify-center p-9 bg-black w-full">
+                <div class="flex justify-center p-9 bg-black w-full bg-transparent">
                     <div class="flex flex-wrap justify-evenly w-3/4 ">
                         <Link href="/locations">
                             <div class="relative mt-10">

@@ -35,7 +35,7 @@ export default component$(() => {
   useContextProvider(SearchContextId, searchQuery)
 
   return (
-    <div class="relative min-h-screen">
+    <div class="relative min-h-screen bg-[url('/images-logos/MainBackground.png')]">
       <Header 
         onInput$={(event) => {
           searchQuery.value = (event.target as HTMLInputElement).value
